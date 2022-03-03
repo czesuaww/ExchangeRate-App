@@ -1,3 +1,6 @@
+@import "./colors";
+@import "./components";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,11 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #293038;
+  background-color: var(--back-color);
+  padding: 1em;
+  font-family: "Barlow Condensed", sans-serif;
 }
-
-// .wrapper {
-//   margin: 0 auto;
-//   width: 100%;
-//   max-width: 1200px;
-// }

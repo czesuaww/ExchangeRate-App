@@ -1,3 +1,35 @@
+:root {
+  --back-color: #29303b;
+  --back-color-wrapper: #333;
+  --white-color: #fff;
+  --border-wrapper-color: 1px solid #1c232d;
+  --shadow-wrapper-color: 0 0 15px #1c232d;
+}
+
+.wrapper {
+  padding: 4em;
+  max-width: 500px;
+  background-color: var(--back-color-wrapper);
+  color: var(--white-color);
+  text-align: center;
+  border: var(--border-wrapper-color);
+  border-radius: 15px;
+  -webkit-box-shadow: var(--shadow-wrapper-color);
+          box-shadow: var(--shadow-wrapper-color);
+}
+
+.wrapper h1 {
+  margin-bottom: 1em;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.wrapper p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+  font-weight: 100;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -16,6 +48,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background-color: #293038;
+  background-color: var(--back-color);
+  padding: 1em;
+  font-family: "Barlow Condensed", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
