@@ -1,7 +1,9 @@
 .wrapper {
   padding: 2em;
-  // width: 100%;
-  max-width: 500px;
+  width: 100%;
+  min-height: 50vh;
+
+  max-width: 550px;
   background-color: var(--back-color-wrapper);
   color: var(--white-color);
   text-align: center;
