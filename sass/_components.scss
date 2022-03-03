@@ -1,6 +1,6 @@
 .wrapper {
   padding: 2em;
-  width: 100%;
+  // width: 100%;
   max-width: 500px;
   background-color: var(--back-color-wrapper);
   color: var(--white-color);
@@ -8,13 +8,13 @@
   border: var(--border-wrapper-color);
   border-radius: 15px;
   box-shadow: var(--shadow-wrapper-color);
-  h1 {
+  .heading {
     margin-bottom: 1em;
     font-size: 2.5rem;
     font-weight: 200;
   }
 
-  p {
+  .text {
     font-size: 1.2rem;
     margin-bottom: 1.5em;
     font-weight: 100;
