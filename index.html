@@ -29,17 +29,22 @@
             class="appBody__sectionLeft-amountOne"
             value="1"
           />
-          <select id="currency-one">
+          <select id="currency-one" onchange="selectValue()">
             <option value="PLN" selected>PLN</option>
             <option value="USD">USD</option>
             <option value="GBP">GBP</option>
             <option value="EUR">EUR</option>
-            <option value="CHF">CHF</option>
+            <option value="CHN">CHN</option>
+            <option value="CHN">RUS</option>
           </select>
+          <div class="appBody__sectionLeft-flags">
+            <img src="/img/plFlag.png" alt="plFlag" />
+          </div>
         </div>
         <button class="appBody__swap">
           <i class="fas fa-retweet"></i>
         </button>
+
         <div class="appBody__sectionRight">
           <input
             type="number"
@@ -51,8 +56,12 @@
             <option value="USD">USD</option>
             <option value="GBP">GBP</option>
             <option value="EUR">EUR</option>
-            <option value="CHF">CHF</option>
+            <option value="CHF">CHN</option>
+            <option value="CHN">RUS</option>
           </select>
+          <div class="appBody__sectionRight-flags">
+            <img src="/img/plFlag.png" alt="plFlag" />
+          </div>
         </div>
       </div>
       <p class="rateInfo">asd</p>
