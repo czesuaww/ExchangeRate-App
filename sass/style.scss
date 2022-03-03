@@ -16,3 +16,46 @@ body {
   padding: 1em;
   font-family: "Barlow Condensed", sans-serif;
 }
+
+.appBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  &__sectionLeft,
+  &__sectionRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    margin-bottom: 0.3em;
+    width: 100%;
+    font-size: 4rem;
+  }
+
+  select {
+    padding: 0.5em 0.7em;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  select,
+  input {
+    color: var(--white-color);
+    border: none;
+    background: none;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      color: var(--text-color);
+    }
+  }
+
+  option {
+    color: var(--option-color);
+  }
+}
