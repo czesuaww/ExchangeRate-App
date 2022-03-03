@@ -12,6 +12,41 @@
     ></script>
   </head>
   <body>
+    <div class="wrapper">
+      <h1>Exchange Rate Application</h1>
+      <p>Check current exchange rates!</p>
+
+      <div class="appBody">
+        <div class="appBody__sectionLeft">
+          <input
+            type="number"
+            class="appBody__sectionLeft-amountOne"
+            value="1"
+          />
+          <select id="currency-one">
+            <option value="PLN" selected>PLN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="CHF">CHF</option>
+          </select>
+        </div>
+        <button class="appBody__sectionLeft-swap">
+          <i class="fas fa-retweet"></i>
+        </button>
+        <div class="appBody__sectionRight">
+          <input type="number" class="appBody__sectionRight-amountTwo" />
+          <select id="currency-one">
+            <option value="PLN" selected>PLN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="CHF">CHF</option>
+          </select>
+        </div>
+      </div>
+      <p class="rateInfo"></p>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
