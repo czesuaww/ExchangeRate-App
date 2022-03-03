@@ -10,7 +10,6 @@
 
 .wrapper {
   padding: 2em;
-  width: 100%;
   max-width: 500px;
   background-color: var(--back-color-wrapper);
   color: var(--white-color);
@@ -21,13 +20,13 @@
           box-shadow: var(--shadow-wrapper-color);
 }
 
-.wrapper h1 {
+.wrapper .heading {
   margin-bottom: 1em;
   font-size: 2.5rem;
   font-weight: 200;
 }
 
-.wrapper p {
+.wrapper .text {
   font-size: 1.2rem;
   margin-bottom: 1.5em;
   font-weight: 100;
@@ -113,5 +112,27 @@ body {
 
 .appBody option {
   color: var(--option-color);
+}
+
+.appBody__swap {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0.4em;
+  padding: 0.4em 2.5em;
+  background-image: linear-gradient(45deg, #4c4750, #403c46);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+.appBody__swap:focus {
+  outline: none;
+  background-image: linear-gradient(45deg, #2c2b2e, #28242e);
+}
+
+.rateInfo {
+  margin-top: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
